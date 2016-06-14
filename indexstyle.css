@@ -1,3 +1,54 @@
-body {
-    background-color: #5F9EA0;
+h1{
+    color: #FFFF00;
+    font-family: "Copperplate Gothic Light", Times, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    outline-style: solid;
+    outline-color: #FFFF10;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+h3{
+    color: #FFFF00;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    outline-style: solid;
+    outline-color: #FFFF10;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h4{
+    color: #181818 ;
+    font-family: "Impact", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    outline-style: none;
+    outline-color: #FFFF10;
+    text-shadow: none;
+}
+
+
+/*
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
