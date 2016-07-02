@@ -15,7 +15,7 @@ ul.tab {
     border: 1px solid #ddd;
     background-color: #99ddff;
     margin: auto;
-    width: 60%;
+    width: 70%;
     outline-style: hidden;
     outline-width: 0px;
     border-width: 1px;
@@ -35,7 +35,7 @@ ul.tab li a {
     display: inline-block;
     color: yellow;
     text-align: center;
-    padding: 14px 53px;
+    padding: 14px 52px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;
@@ -63,7 +63,7 @@ ul.tab li a:focus, .active {
     border-top: none;
     background-color: #99ddff;
     margin: auto;
-    width: 60%;
+    width: 70%;
 
 }
 .img-profile {
@@ -95,7 +95,7 @@ h1{
     outline-style: hidden;
     outline-width: 0px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    width: 60%;
+    width: 70%;
     text-align: center;
     border-style: solid;
     border-width: 4px;
@@ -114,7 +114,7 @@ h2{
     outline-style: hidden;
     outline-width: 0px;
     text-shadow: none;
-    width: 60%;
+    width: 70%;
     text-align: center;
     border-style: solid;
     border-width: 0px;
@@ -135,7 +135,7 @@ h3{
     outline-width: 5px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin: auto;
-    width: 60%;
+    width: 70%;
     text-align: center;
     padding: 3px;
     border-style: solid;
@@ -155,13 +155,13 @@ h4{
     outline-color: #FFFF10;
     text-shadow: none;
     margin: auto;
-    width: 60%;
+    width: 70%;
     text-align: center;
 
 }
 p{
     margin: auto;
-    width: 60%;
+    width: 70%;
     color: #000000;
     background-color: #99ddff;
     font-family: "Helvetica", Times, sans-serif;
