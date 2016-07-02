@@ -4,8 +4,7 @@
 }
 body {font-family: "Tahoma", Geneva;
   background-image: url("messydesk.jpg");
-
-  background-size: cover;
+  background-size:cover;
 }
 ul.tab {
     list-style-type: none;
