@@ -5,57 +5,10 @@
   <link rel="stylesheet" href="indexstyle.css">
 </head>
 <body style="background-color:lightblue;">
-<style>
-
-
-body {font-family: "Tahoma", Geneva;}
-ul.tab {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ddd;
-    background-color: #5F9EA0;
-}
-
-/* Float the list items side by side */
-ul.tab li {float: left;}
-
-/* Style the links inside the list items */
-ul.tab li a {
-    display: inline-block;
-    color: yellow;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 20px;
-    font-family:Tahoma;
-}
-
-/* Change background color of links on hover */
-ul.tab li a:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-</style>
 <body>
- 
- <center> <h1>Justin Quan</h1></center></font>
+ <center><img class = "img-profile" src="profile3.png" width:270px;height:270px;">
+  <h1>Justin Quan</h1>
 
-<center><img src="profile.jpeg" width:304px;height:228px;"></center>
 
 <ul class="tab">
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Home')">Home</a></li>
@@ -64,7 +17,7 @@ ul.tab li a:focus, .active {
   <li><a href="#" class="tablinks" onclick="openCity(event, 'News')">News</a></li>
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Social')">Social</a></li>
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Related Links')">Related Links</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, '   ')">   </a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, ' ')">   </a></li>
 </ul>
 
 <div id="Home" class="tabcontent">
@@ -101,7 +54,7 @@ ul.tab li a:focus, .active {
   <h3>News</h3>
   <p>5/21/16: Please help support my eagle project!</p>
 <a href="https://www.facebook.com/profile.php?id=100012039010749">
-<img src="eaglegofundme.jpeg" alt="Visit my Facebook page!" width=420 height="300" border="0"></a>
+<img src="eaglegofundme.jpeg" alt="Visit my gofundme page!" width=420 height="300" border="0"></a>
 
  <p>5/21/16: Thanks to Los Gatos Weekly for publishing my poem!</p>
 <a href="http://www.mercurynews.com/los-gatos/ci_29910532/los-gatos-where-poetree-grows-is-top-seller.html">
@@ -112,41 +65,40 @@ ul.tab li a:focus, .active {
 <div id="Social" class="tabcontent">
   <h3>Social</h3>
   <a href="https://www.facebook.com/profile.php?id=100012039010749">
-<img src="facebook.jpeg" alt="Visit my Facebook page!" width=30 height="30" border="0">
+<img class = "img-circle" src="facebook.jpeg" alt="Visit my Facebook page!" width=30 height="30" border="0">
 </a>
 <a href="https://www.instagram.com/justinquan_/">
-<img src="instagram.jpeg" alt="Visit my Instagram profile justinquan_ !" width="30" height="30" border="0">
+<img class = "img-circle" src="instagram.jpeg" alt="Visit my Instagram profile justinquan_ !" width="30" height="30" border="0">
 </a>
 <a href="https://plus.google.com/115399382963764332565/posts">
-<img src="googleplus2.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
+<img class = "img-circle" src="googleplus2.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
 </a>
 <a href="https://github.com/justquan">
-<img src="githublogo.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
+<img class = "img-circle" src="githublogo.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
 </a>
  </div>
-
 
  <div id="Related Links" class="tabcontent">
   <h3> Related Links </h3>
 <h4>Los Gatos High School</h4>
   <p>http://www.lghs.net</p>
 <a href="http://www.lghs.net/">
-<img src="lghs.jpeg" alt="Go Wildcats!" width=50 height="50" border="0">
+<img class = "img-medcircle" src="lghs.jpeg" alt="Go Wildcats!" style="width:50x;height:50px;">
 </a>
   <h4>LGHS Robotics Team 972</h4>
    <p>http://www.ironclaw972.org/</p>
   <a href="http://www.ironclaw972.org/">
-<img src="ironclaw.jpeg" alt="Visit team 972's website" width=50 height="50" border="0">
+<img class = "img-medcircle" src="ironclaw.jpeg" alt="Visit team 972's website" width=50 height="50" border="0">
 </a>
 
 <h4>Los Gatos Boy Scout Troop 539</h4>
    <p>http://www.t-539.org/</p>
   <a href="http://www.t-539.org/">
-<img src="bsa.jpeg" alt="BSA" width=50 height="50" border="0">
+<img class = "img-medcircle" src="bsa.jpeg" alt="BSA" width=50 height="50" border="0">
 </a>
 
 </div>
-<div id="   " class="tabcontent">
+<div id=" " class="tabcontent">
   <h3>Memes</h3>
   <a href="http://poop.bike/">
 <img src="datboi.gif" alt="Waddup" width="1000" height=1000"" border="3">
@@ -180,6 +132,5 @@ function openCity(evt, cityName) {
 }
 
 </script>
-     
 </body>
 </html> 
