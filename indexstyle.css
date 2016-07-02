@@ -1,27 +1,151 @@
+.font1{
+    font-family: "Impact", sans-serif;
+    font-size: 25px;
+}
+body {font-family: "Tahoma", Geneva;
+  background-image: url("messydesk.jpg");
+
+  background-size: cover;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background-color: #99ddff;
+    margin: auto;
+    width: 60%;
+    outline-style: hidden;
+    outline-width: 0px;
+    border-width: 1px;
+    border-color: #FFFF10;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+  float: left;
+      text-align: center;
+margin: auto;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    text-align: center;
+    display: inline-block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 53px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family:Tahoma;
+    outline-style: hidden;
+    outline-width: 0px;
+    border-width: 1px;
+    border-color: #FFFF10;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #99ddff;
+    margin: auto;
+    width: 60%;
+
+}
+.img-profile {
+    border-radius: 50%;
+     width:250px;
+     height:250px;
+     margin-bottom: 10px;
+ }
+.img-circle {
+    border-radius: 50%;
+     width:30px;
+     height:30px;
+}
+.img-medcircle{
+     border-radius: 50%;
+     width:50px;
+     height:50px;
+margin:auto;
+display:block;
+}
 h1{
     color: #FFFF00;
+    background-color: #99ddff;
     font-family: "Copperplate Gothic Light", Times, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: bold;
     font-variant: normal;
-    outline-style: solid;
-    outline-color: #FFFF10;
+    outline-style: hidden;
+    outline-width: 0px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 60%;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #FFFF10;
+    display: block;
+    margin-bottom: 25px;
+}
+h2{
+    color: #FFFF00;
+    background-color: #99ddff;
+    font-family: "Helvetica", Times, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    outline-style: hidden;
+    outline-width: 0px;
+    text-shadow: none;
+    width: 60%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #FFFF10;
+    display: block;
+    margin:auto;
+}
 }
 h3{
     color: #FFFF00;
+    background-color: #99ddff;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
-    outline-style: solid;
-    outline-color: #FFFF10;
+    outline-style: hidden;
+    outline-width: 5px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 3px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFF10;
+
 }
 h4{
     color: #181818 ;
+    background-color: #99ddff;
     font-family: "Impact", sans-serif;
     font-size: 25px;
     font-style: normal;
@@ -30,8 +154,28 @@ h4{
     outline-style: none;
     outline-color: #FFFF10;
     text-shadow: none;
-}
+    margin: auto;
+    width: 60%;
+    text-align: center;
 
+}
+p{
+    margin: auto;
+    width: 60%;
+    color: #000000;
+    background-color: #99ddff;
+    font-family: "Helvetica", Times, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: none;
+    font-variant: normal;
+    outline-style: none;
+    outline-color: #FFFF10;
+    text-shadow: none;
+    text-align: center;
+
+
+}
 
 /*
 .fullscreen-bg {
