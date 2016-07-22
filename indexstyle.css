@@ -2,8 +2,10 @@
     font-family: "Impact", sans-serif;
     font-size: 25px;
 }
-body {font-family: "Tahoma", Geneva;
-  background-image: url("messydesk.jpg");
+
+body {
+  font-family: "Tahoma", Geneva;
+  background-image: url( "messydesk.jpg");
   background-size:cover;
 }
 
@@ -13,7 +15,7 @@ ul.tab {
     padding: 0;
     overflow: hidden;
     border: 1px solid #ddd;
-    background-color: #99ddff;
+    background-color: #5ED5FF;
     margin: auto;
     width: 70%;
     outline-style: hidden;
@@ -21,15 +23,14 @@ ul.tab {
     border-width: 1px;
     border-color: #ffffff;
     background-color: #5ED5FF;
-
+    display:block;
 }
 
 /* Float the list items side by side */
 ul.tab li {
-  float: left;
     text-align: center;
     margin: auto;
-
+    display:inline-block;
 }
 
 /* Style the links inside the list items */
@@ -43,12 +44,9 @@ ul.tab li a {
     transition: 0.3s;
     font-size: 20px;
     font-family:Tahoma;
-    outline-style: hidden;
-    outline-width: 0px;
     border-width: 1px;
     border-color: #FFFFFF;
     background-color: #5ED5FF;
-
 }
 
 /* Change background color of links on hover */
@@ -84,25 +82,24 @@ ul.tab li a:focus, .active {
     border-bottom: 10px solid #ffffff;
     z-index: -1;
     position:relative;
-
 }
 .img-profile {
     border-radius: 50%;
      width:250px;
      height:250px;
      margin:auto;
-     display:block;
+     display:block; 
      margin-bottom: none;
      margin-top:50px;
  }
 
 .img-circle {
+    margin:auto;
     border-radius: 50%;
-     width:30px;
-     height:30px;
+     width:40px;
+     height:40px;
      display:inline-block;
-     margin-left: 3px;
-     margin-right: 3px;
+     margin: 6px;
 }
 .img-medcircle{
      border-radius: 50%;
@@ -110,6 +107,8 @@ ul.tab li a:focus, .active {
      height:50px;
      display:block;
      margin:auto;
+     padding-left: 3px;
+     padding-right: 3px;
 
 }
 h1{
@@ -187,21 +186,27 @@ h4{
     text-align: center;
 }
 h5{
-    color: #000000;
-    background-color: none;
-    font-family: "Georgia", Georgia, serif;
-    font-size: 20px;
+    color: #ffffff;
+    background-color: #5ED5FF;
+    font-family: Helvetica;
+    font-size: 25px;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     margin: auto;
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-top:25px;
-    margin-right: 0px;
-    margin-left: 0px;
-    display:block;
+    margin-right: 5px;
+    margin-left: 5px;
+    display:inline;
+    padding-left: 20%;
+    padding-right:20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+        border-radius: 25px;
+
 }
 p{
     margin: auto;
@@ -233,10 +238,7 @@ figcaption{
     display:block;
     color: #000000;
     font-family: "Helvetica", Times, sans-serif;
-    font-size: 15px;
-        border-style: solid;
-    border-color: blue;
-    border-width:2px;
+    font-size: 15px;  
     text-align: center;
 
 }
@@ -262,4 +264,9 @@ margin:auto;
 .container{
     width:100%;
     text-align:center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+ul#menu{
+    text-align: center;
 }

@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Justin Quan</title>
   <link rel="stylesheet" href="indexstyle.css">
+  <link rel="icon" href="profile4.JPG">
+
 </head>
-<body>
+<body onLoad="openCity(event, 'Home')">
 
 <img class = "img-profile" src="profile4.JPG">
 <img class = "img-title" src = "sitetitle3.JPG">
-
-<ul class="tab">
-
+<ul id = "menu" class="tab">
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Home')">Home</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'Contact')">Contact</a></li>
+  <li><a href="#contact" class="tablinks" onclick="openCity(event, 'Home')">Contact</a></li>
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Activity')">Activity</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'Social')">Social</a></li>
+  <li><a href="#social" class="tablinks"onclick="openCity(event, 'Home')">Social</a></li>
   <li><a href="#" class="tablinks" onclick="openCity(event, 'Related Links')">Related Links</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, ' ')"> </a></li>
 </ul>
 
 <div id="Home" class="tabcontent">
@@ -23,12 +23,16 @@
     <a href="https://docs.google.com/document/d/1ywA7VVYPbFRJgtd1zyt9p_HKHA9nyHQWR7pXqbZZMa8/edit?pref=2&pli=1">
   <p>If you're looking for info for the HTML and CSS class, click here!</p>
 </a>
+<div class="container">
   <h5>About Me</h5>
+</div>
   <p>If you couldn't already tell, my name is Justin Quan.</p>
   <p> I am a currently a sophomore at Los Gatos High School, in Los Gatos, California.</p>
   <p>I am a straight A student involved in robotics, speech and debate, Boy Scouts, and many other extra-curricular activities.</p>
   <p>I spend the little free time I have designing, programming, engineering, and just making stuff.</p>
+  <div class="container">
   <h5>Pictures of Me</h5>
+</div>
   <p>Just in case you see me on the streets, and you want to heckle at me, throw stones at me, or hire me.</p>
 
 <div class="container">
@@ -81,15 +85,27 @@
     <p>True talent
   </div>
 </div>
+  <div class="container">
+<h5>Social and Contact</h5>
 </div>
+<a name="contact">
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
   <p>Email: jnicquan@gmail.com</p>
   <p>Cell: (408)355-0166</p>
   <p>Home: (408)358-3074</p>
-
+ <a name="social">
+ <div class="container">
+  <a href="https://www.facebook.com/profile.php?id=100012039010749">
+<img class="img-circle"src="facebook.jpeg"alt="Visit my Facebook page!"/></a>
+<a href="https://www.instagram.com/justinquan_/">
+<img class="img-circle"src="instagram.jpeg"alt="Visit my Instagram profile justinquan_ !"/></a>
+<a href="https://plus.google.com/115399382963764332565/posts">
+<img class = "img-circle" src="googleplus2.jpeg" alt="Visit my Google+ page!"/></a>
+<a href="https://github.com/justquan">
+<img class = "img-circle" src="githublogo.jpeg" alt="Visit my Google+ page!"/></a>
+ </div>
 </div>
+
 
 <div id="Activity" class="tabcontent">
   <h3>Activity</h3>
@@ -102,24 +118,7 @@
   <p>Math Club</p> 
   <p>Los Gatos Youth Town Commission (2016-2017 term)</p> 
   <p>LGHS Orchestra</p> 
-
 </div>
-
-<div id="Social" class="tabcontent">
-  <h3>Social</h3>
-  <a href="https://www.facebook.com/profile.php?id=100012039010749">
-<img class = "img-circle" src="facebook.jpeg" alt="Visit my Facebook page!" width=30 height="30" border="0">
-</a>
-<a href="https://www.instagram.com/justinquan_/">
-<img class = "img-circle" src="instagram.jpeg" alt="Visit my Instagram profile justinquan_ !" width="30" height="30" border="0">
-</a>
-<a href="https://plus.google.com/115399382963764332565/posts">
-<img class = "img-circle" src="googleplus2.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
-</a>
-<a href="https://github.com/justquan">
-<img class = "img-circle" src="githublogo.jpeg" alt="Visit my Google+ page!" width="30" height="30" border="0">
-</a>
- </div>
 
  <div id="Related Links" class="tabcontent">
   <h3> Related Links </h3>
@@ -139,24 +138,6 @@
   <a href="http://www.t-539.org/">
 <img class = "img-medcircle" src="bsa.jpeg" alt="BSA" width=50 height="50" border="0">
 </a>
-
-</div>
-<div id=" " class="tabcontent">
-  <h3>Memes</h3>
-  <a href="http://poop.bike/">
-<img src="datboi.gif" alt="Waddup" width="1000" height=1000"" border="3">
-
-<img src="datboi2.jpeg" alt="Waddup" width="650" height=500"" border="3">
-<img src="ripdatboi.jpeg" alt="Waddup" width="650" height=500"" border="3">
-<img src="spongegar.jpeg" alt="Waddup" width="650" height=500"" border="3">
-<!--
- <audio controls>
-  <source src="Wednesday.ogg" type="audio/ogg">
-  <source src="Wednesday.mp3" type="audio/mpeg">
-  Get a new browser, audio here isn't supported by it.
-</audio>
--->
-  <h4>I'm sorry you found this page</h4>
 
 </div>
 
