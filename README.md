@@ -1,1 +1,2 @@
-# justquan.github.io
+# Personal Website
+HTML, CSS, and some JavaScript
