@@ -213,7 +213,7 @@ p{
     width: 70%;
     color: #000000;
     background-color: #ffffff;
-    font-family: "Georgia", Georgia, serif;
+    font-family: bladeRunner;
     font-size: 15px;
     font-style: normal;
     font-weight: none;
@@ -269,4 +269,9 @@ margin:auto;
 }
 ul#menu{
     text-align: center;
+}
+
+@font-face {
+   font-family: bladeRunner;
+   src: url(BLADRMF_.tff);
 }
