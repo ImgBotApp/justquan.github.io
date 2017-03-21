@@ -273,5 +273,5 @@ ul#menu{
 
 @font-face {
    font-family: bladeRunner;
-   src: url(bladeRunner.tff);
+   src: bladeRunner.tff;
 }
