@@ -1,10 +1,7 @@
-.font1{
-    font-family: "Impact", sans-serif;
-    font-size: 25px;
-}
+
 
 body {
-  font-family: "Tahoma", Geneva;
+  font-family: futura;
   background-image: url("messydesk.jpg");
   background-size:cover;
 }
@@ -42,8 +39,8 @@ ul.tab li a {
     padding: 14px 52px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 20px;
-    font-family:Tahoma;
+    font-size: 25px;
+    font-family:futura;
     border-width: 1px;
     border-color: #FFFFFF;
     background-color: #5ED5FF;
@@ -114,7 +111,7 @@ ul.tab li a:focus, .active {
 h1{
     color: #000000;
     background-color: #ffffff;
-    font-family: "Copperplate Gothic Light", Times, sans-serif;
+    font-family: futura;
     font-size: 60px;
     font-style: normal;
     font-weight: bold;
@@ -133,7 +130,7 @@ h1{
 h2{
     color: #ffffff;
     background-color: #5ED5FF;
-    font-family: "Helvetica", Times, sans-serif;
+    font-family: futura;
     font-size: 25px;
     font-style: normal;
     font-weight: bold;
@@ -153,7 +150,7 @@ h2{
 h3{
     color: #ffffff;
     background-color: #5ED5FF;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: futura;
     font-size: 30px;
     font-style: normal;
     font-weight: normal;
@@ -173,7 +170,7 @@ h3{
 h4{
     color: #ffffff ;
     background-color: #ffffff;
-    font-family: "Impact", sans-serif;
+    font-family: futura;
     font-size: 25px;
     font-style: normal;
     font-weight: normal;
@@ -188,7 +185,7 @@ h4{
 h5{
     color: #ffffff;
     background-color: #5ED5FF;
-    font-family: Helvetica;
+    font-family: futura;
     font-size: 25px;
     font-style: normal;
     font-weight: normal;
@@ -213,7 +210,8 @@ p{
     width: 70%;
     color: #000000;
     background-color: #ffffff;
-    font-family: "Georgia", Georgia, serif;
+    /*font-family: "Georgia", Georgia, serif;*/
+    font-family: futura;
     font-size: 15px;
     font-style: normal;
     font-weight: none;
@@ -273,5 +271,10 @@ ul#menu{
 
 @font-face {
    font-family: bladeRunner;
-   src: bladeRunner.tff;
+   src: url(bladeRunner.ttf);
+
+}
+@font-face {
+   font-family: futura;
+   src: url(futura.woff);
 }
