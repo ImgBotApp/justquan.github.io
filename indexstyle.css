@@ -2,7 +2,7 @@
 
 body {
   font-family: futura;
-  background-image: url("messydesk.jpg");
+  background-image: url("img/messydesk.jpg");
   background-size:cover;
 }
 
@@ -271,10 +271,14 @@ ul#menu{
 
 @font-face {
    font-family: bladeRunner;
-   src: url(bladeRunner.ttf);
+   src: url(fontsbladeRunner.ttf);
 
 }
 @font-face {
    font-family: futura;
-   src: url(futura.woff);
+   src: url(fonts/futura.woff);
+}
+
+.test{
+    font-family: Helvetica;
 }
